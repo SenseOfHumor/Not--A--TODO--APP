@@ -12,9 +12,4 @@ def TODO(task, emoji, key):
     )
 
 
-## implementation
-    
-'''
-TODO("Write a blog post", "pencil", "1")
-TODO("Create a new project", "rocket", "2")
-'''
+TODO("have a milkshake", "🥛", 42) 
