@@ -13,3 +13,5 @@ def TODO(task, emoji, key):
 
 
 TODO("have a milkshake", "🥛", 42) 
+
+#TODO have to make overloaded fucntions for different use cases like no date, no time, or crazier -> no task
