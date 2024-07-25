@@ -40,6 +40,8 @@ def askGemini(prompt):
     4. if not task and time is given, then you will create a task with 'empty' in the task and time section.
     5. if no time is given, then you will create a task with 'No Time allocated' in the time section.
     6. if only update is given, then you will create a task with 'empty' in all the sections with a new UID.
+    7. if the user replies with 'I dont wanna do it anymore', then you will delete the task.
+    8. if the user replies with 'nothing' or something similar, then you will create a task with 'empty' in all the sections.
 
     a case -> lets say the user asks you to create a task about brushing their teeh at a certain time
     but late, says they dont wanna do it anymore, so you should not create a new task but delete the old one. and nothing to update.
