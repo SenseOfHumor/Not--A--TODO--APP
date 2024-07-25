@@ -11,7 +11,7 @@ load_dotenv()
 # Hardcoded OAuth 2.0 credentials
 CLIENT_ID = os.getenv("GOOGLE_CLIENT_ID")
 CLIENT_SECRET = os.getenv("GOOGLE_SECRET")
-REDIRECT_URI = "http://localhost:8502"  # Make sure this matches the registered URI
+REDIRECT_URI = "https://nottodo.streamlit.app"  # Make sure this matches the registered URI
 
 # Configure the OAuth 2.0 flow
 flow = Flow.from_client_config(
